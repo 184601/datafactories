@@ -1,0 +1,12 @@
+{
+	"name": "RestResourcelego",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "restli",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
