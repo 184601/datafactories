@@ -1,0 +1,15 @@
+{
+	"name": "AzureTableli",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureTableStorageli",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "chara"
+		}
+	}
+}
