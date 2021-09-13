@@ -5,10 +5,16 @@
 		"factoryName": {
 			"value": "ustadf601"
 		},
+		"AzureTableStorage_connectionString": {
+			"value": ""
+		},
+		"Azuretablestoragetest_connectionString": {
+			"value": ""
+		},
 		"Cassandra1_password": {
 			"value": ""
 		},
-		"AzureTableStorage_connectionString": {
+		"AzureTableStorageli_connectionString": {
 			"value": ""
 		},
 		"Cassandra1_properties_typeProperties_host": {
@@ -17,7 +23,13 @@
 		"Cassandra1_properties_typeProperties_username": {
 			"value": "azureadmin"
 		},
+		"Resttest_properties_typeProperties_url": {
+			"value": "https://swapi.dev/api/people"
+		},
 		"SWAPI Service_properties_typeProperties_url": {
+			"value": "https://swapi.dev/api/people"
+		},
+		"restli_properties_typeProperties_url": {
 			"value": "https://swapi.dev/api/people"
 		}
 	}

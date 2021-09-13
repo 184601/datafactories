@@ -7,13 +7,21 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ustadf601"
 		},
+		"AzureTableStorage_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureTableStorage'"
+		},
+		"Azuretablestoragetest_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Azuretablestoragetest'"
+		},
 		"Cassandra1_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Cassandra1'"
 		},
-		"AzureTableStorage_connectionString": {
+		"AzureTableStorageli_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureTableStorage'"
+			"metadata": "Secure string for 'connectionString' of 'AzureTableStorageli'"
 		},
 		"Cassandra1_properties_typeProperties_host": {
 			"type": "string",
@@ -23,7 +31,15 @@
 			"type": "string",
 			"defaultValue": "azureadmin"
 		},
+		"Resttest_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://swapi.dev/api/people"
+		},
 		"SWAPI Service_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://swapi.dev/api/people"
+		},
+		"restli_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://swapi.dev/api/people"
 		},
@@ -54,11 +70,17 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureTableStorage_connectionString": {
+						"value": "[parameters('AzureTableStorage_connectionString')]"
+					},
+					"Azuretablestoragetest_connectionString": {
+						"value": "[parameters('Azuretablestoragetest_connectionString')]"
+					},
 					"Cassandra1_password": {
 						"value": "[parameters('Cassandra1_password')]"
 					},
-					"AzureTableStorage_connectionString": {
-						"value": "[parameters('AzureTableStorage_connectionString')]"
+					"AzureTableStorageli_connectionString": {
+						"value": "[parameters('AzureTableStorageli_connectionString')]"
 					},
 					"Cassandra1_properties_typeProperties_host": {
 						"value": "[parameters('Cassandra1_properties_typeProperties_host')]"
@@ -66,8 +88,14 @@
 					"Cassandra1_properties_typeProperties_username": {
 						"value": "[parameters('Cassandra1_properties_typeProperties_username')]"
 					},
+					"Resttest_properties_typeProperties_url": {
+						"value": "[parameters('Resttest_properties_typeProperties_url')]"
+					},
 					"SWAPI Service_properties_typeProperties_url": {
 						"value": "[parameters('SWAPI Service_properties_typeProperties_url')]"
+					},
+					"restli_properties_typeProperties_url": {
+						"value": "[parameters('restli_properties_typeProperties_url')]"
 					}
 				}
 			},
